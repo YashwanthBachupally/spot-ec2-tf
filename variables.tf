@@ -19,5 +19,5 @@ variable "ami_id" {
 variable "spot_price" {
   description = "Maximum spot price"
   type        = string
-  default     = "0.0035" # Set your maximum spot price
+  default     = "0.0035" # maximum spot price
 }
